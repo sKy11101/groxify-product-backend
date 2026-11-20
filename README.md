@@ -53,24 +53,6 @@ Write operations are restricted to authenticated staff users:
 
 Django Admin: `/admin/`
 
-## 5. Git
-
-```bash
-git init
-git add .
-git commit -m "Initial Django product backend"
-```
-
-Create an empty GitHub repository named `groxify-product-backend`, then connect it:
-
-```bash
-git branch -M main
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/groxify-product-backend.git
-git push -u origin main
-```
-
-Do not commit `.env`, passwords, AWS keys, or production secrets.
-
 ## Notes
 - This is the initial backend scaffold. Do not point the live website to it until API,
   CORS, authentication, HTTPS, database backups, and production settings are tested.
