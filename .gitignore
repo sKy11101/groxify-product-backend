@@ -1,19 +1,11 @@
-# Python virtual environment
-venv/
-.venv/
-
-# Python cache
 __pycache__/
 *.py[cod]
-
-# Environment variables and secrets
 .env
-
-# Django generated files
+.venv/
+venv/
 db.sqlite3
 media/
 staticfiles/
-
-# IDE files
-.vscode/
-.idea/
+.pytest_cache/
+.coverage
+.DS_Store
